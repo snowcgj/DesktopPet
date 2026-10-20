@@ -1,0 +1,17 @@
+node_modules/
+config.json
+usage.jsonl
+*.log
+
+# WorkBuddy 工作空间记忆（项目本地）
+.workbuddy/
+
+# 系统垃圾
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 编辑器
+.vscode/
+.idea/
+*.swp

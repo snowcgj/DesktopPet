@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' file: data:">
+  <title>布布和一二</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <button id="quit" title="退出桌宠">×</button>
+
+  <div id="bubbleLayer"></div>
+
+  <div id="stage">
+    <div class="pet" id="yier" title="点我和我聊天">
+      <img id="yierImg" alt="一二" draggable="false">
+      <div class="fallback"></div>
+    </div>
+    <div class="pet" id="bubu" title="点我和我聊天">
+      <img id="bubuImg" alt="布布" draggable="false">
+      <div class="fallback"></div>
+    </div>
+  </div>
+
+  <div id="chatBar" class="hidden">
+    <input id="chatInput" placeholder="和它们说点什么…（回车发送，Esc 收起）" maxlength="200">
+  </div>
+
+  <script src="renderer.js"></script>
+</body>
+</html>
